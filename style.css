@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  padding : 0 20px;
+  margin-top: 0;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.logo {
+    width: 60vw;
+}
+.logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 60px;
+   
+}
+#nav-bar{
+    width: auto;
+    padding: 10px; 
+}
+#header {
+    padding-top: 20px;
+}
+#center {
+    margin-top: 40px;
+}
+.email-input {
+    width: 22%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+#email {
+    padding: 5px 0;
+    margin-top: 20px;
+}
+.get-started{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    padding: 5px;
+    width: 12%;
+}
+#inputform > form > button {
+    color: #000;
+    font-weight: 900;
+    font-size: medium;
+    background-color: #f1c40f;
+    border: 0;
+    cursor: pointer;
+}
+button:hover {
+    background-color:red;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+#features{
+    margin-top: 30px;
+}
+.grid{
+   display: flex;
+   margin-left: 130px;
+}
+i {
+   font-size: 50px;
+   color: darkorange;
+}
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 130px;
+   
+}
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+#how-it-works {
+    display: flex;
+    justify-content: center;
+}
+.video {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.row {
+    margin: 60px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+ .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px;
+    text-align: center;
+    width: calc( 100% / 3);
+    height: 320px;
+    margin: 10px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+}
+.price_heading {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.148);
+    font-weight: 700;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.prize{
+    font-weight: bolder;
+    font-size: 23px;
+}
+.column > p {
+    margin-bottom: 15px;
+}
+.column > ul > li {
+    padding: 5px 0;
+    
+}
+.column > button {
+    background-color: #f1c40f;
+    border: 0;
+    margin: 15px 0;
+    cursor: pointer; 
+}
+.btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+.column button:hover {
+    background:red;
+}
+footer{
+    background-color: #ddd;
+    margin-top: 30px;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+footer > ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.footer > li {
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+footer > li{
+    margin-right: 30px;
+    font-family: 'Lato', sans-serif;
+
+}
+footer > span {
+    padding-right: 20px;
+    margin-top: 5px;
+}
+footer > span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+@media screen and (max-width: 720px) {
+    body {
+        background-color: white;
+    }
+}
