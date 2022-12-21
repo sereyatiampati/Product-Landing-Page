@@ -1,6 +1,6 @@
 # Product-Landing-Page
-> A website on my personal experience learning from freecodecamp.org
-> https://sereyatiampati.github.io/Product-Landing-Page.html
+> A website on my personal experience learning front-end.
+[Website link](https://sereyatiampati.github.io/Product-Landing-Page.html)
 
 ### Built with
 * CSS
