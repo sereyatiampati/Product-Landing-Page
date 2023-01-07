@@ -1,6 +1,6 @@
 # Product-Landing-Page
 > A website on my personal experience learning front-end.
-[Website link](https://sereyatiampati.github.io/Product-landing-page/)
+[Live Website link](https://sereyatiampati.github.io/Product-landing-page/)
 
 ### Built with
 * CSS
